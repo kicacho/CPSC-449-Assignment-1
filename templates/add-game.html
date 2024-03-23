@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a Video Game</title>
+</head>
+<body>
+    <h1>Add a Video Game</h1>
+    <form action="/api/games" method="POST">
+        <input type="hidden" name="request_type" value="add_game_form">
+        <label>Title:</label><br>
+        <input type="text" name="title" required><br>
+        <label>Publisher:</label><br>
+        <input type="text" name="publisher" required><br>
+        <label>Platform:</label><br>
+        <input type="text" name="platform" required><br>
+        <label>Cost:</label><br>
+        <input type="text" name="cost" required><br>
+        <label>Release Year:</label><br>
+        <input type="text" name="year" required><br>
+        <label>Game ID:</label><br>
+        <input type="text" name="game_id" required><br>
+        <input type="submit" value="Add Game">
+    </form>
+</body>
+</html>

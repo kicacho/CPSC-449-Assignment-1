@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Game Management System</title>
+</head>
+<body>
+    <h1>Video Game Management System</h1>
+    <h2>Video Games</h2>
+    <ul>
+        {% for game in games %}
+        <li>{{ game[1] }}, {{ game[2] }}, {{ game[3] }}, ${{ game[4] }}, {{ game[5] }}, {{ game[6] }} </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
