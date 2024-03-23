@@ -1,8 +1,8 @@
 # CPSC-449-Assignment-1
 
-## Run code with: python3 gamestore.py
+### Run code with: python3 gamestore.py
 
-## Examples of CRUD commands
+### Examples of CRUD commands
 
 ### Create (POST)
 
